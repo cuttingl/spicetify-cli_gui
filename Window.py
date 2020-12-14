@@ -17,13 +17,13 @@ class Window(tk.Frame):
     def create_widgets(self):
 
         self.button_update_spotify = tk.Button(self, 
-                text="Mise à jour spotify", 
+                text="New Spotify update ! Apply backup to spicetify", 
                 command=bat_scripts.update_spotify
                 )
         self.button_update_spotify.pack(side="top")
 
         self.button_update_css= tk.Button(self, 
-                text="Mise à jour CSS de spicetify", 
+                text="Update CSS", 
                 command=bat_scripts.update_css_spicetify
                 )
 
