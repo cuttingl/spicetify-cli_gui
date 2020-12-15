@@ -24,11 +24,15 @@ class Window(tk.Frame):
 
         self.button_update_css= tk.Button(self, 
                 text="Update CSS", 
-                command=bat_scripts.update_css_spicetify
+                command=bat_scripts.update_css
                 )
 
         self.button_update_css.pack(side="top")
 
+        self.button_test = tk.Button(self,
+                                    text="Button test request to Bing",
+                                    command= bat_scripts.test)
+        self.button_test.pack(side="top")  
 
         self.exit_button = tk.Button(self,
                 text="Exit",
