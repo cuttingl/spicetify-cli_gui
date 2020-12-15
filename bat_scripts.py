@@ -12,8 +12,8 @@ def update_css_spicetify():
     os.system("spicetify")
 
 def install_spicetify():
-    dirname = os.path.dirname(__file__)
-    filename = dirname.__add__("/powershell_scripts/install_spicetify.ps1")
+    """dirname = os.path.dirname(__file__)
+    filename = dirname.__add__("/powershell_scripts/install_spicetify.ps1")"""
     os.system("Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1' | Invoke-Expression")
 
 def test():

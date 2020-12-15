@@ -1,3 +1,1 @@
 spicetify update
-spicetify
-Pause
