@@ -1,0 +1,3 @@
+spicetify update
+spicetify
+Pause
