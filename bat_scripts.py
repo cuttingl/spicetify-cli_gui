@@ -26,3 +26,9 @@ def test():
     filename = dirname.__add__("/powershell_scripts/test_script.ps1")
     p = subprocess.Popen(["powershell.exe",filename], stdout=sys.stdout)
     p.communicate()
+
+def launch_script():
+    dirname = os.path.dirname(__file__)
+    filename = dirname.__add__("/powershell_scripts/" + script_name)
+    p = subprocess.Popen(["powershell.exe",filename], stdout=sys.stdout)
+    p.communicate()
