@@ -4,22 +4,20 @@ This is a project linked to [spicetify repository](https://github.com/khanhas/sp
 
 ---
 ## Installation :
-Currently only available for Windows systems.
-1. make sure you have the latest Python version
-2. run :
-```
-pip3 install pyinstaller
-```
-3. add your "Scripts" folder to your PATH environment variable, should be at :
-```txt
-C:\Users\username\AppData\Local\Programs\Python\Python38\Scripts
-```
-4. run in your folder containing the project scripts :
-```
-pyinstaller --onefile -w main.py
-```
-5. Head to /dist folder
-6. Enjoy the current (very simple) version !
+
+**Work in progress**
+___
+## To do list :
+### 1. Set environment variables for Python
+### 2. Execution policy and initialization of the project
+### 3. Prettier menu with more detailed options
+
+![example menu](menuoption_tkinter.png)
+
+### 4. TBD
+
+
+
 ___
 ## Objectives :
 ### 1. Provide a user friendly UI by preventing to write command lines to update Spotify's CSS like

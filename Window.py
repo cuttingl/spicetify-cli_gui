@@ -40,3 +40,7 @@ class Window(tk.Frame):
                 bg = "red",
                 command=self.master.destroy)
         self.exit_button.pack(side="bottom")
+
+        self.button_init = tk.Button(self,
+                                    text = "Initialization",
+                                    command = bat_scripts.execut)
