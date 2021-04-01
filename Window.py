@@ -30,7 +30,7 @@ class Window(tk.Frame):
         self.button_update_css.pack(side="top")
 
         self.button_test = tk.Button(self,
-                                    text="Button test request to Bing",
+                                    text="Restore Spotify to default",
                                     command= bat_scripts.test)
         self.button_test.pack(side="top")  
 
